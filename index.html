@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Socket.IO Chat</title>
+  <script src="/socket.io/socket.io.js"></script>
+
   <style>
     ul { list-style-type: none; }
     li { padding: 8px; margin-bottom: 10px; background-color: #f0f0f0; }
@@ -14,7 +16,6 @@
   </form>
 
   <!-- Socket.IO client script -->
-  <script src="socket.io/socket.io.js"></script>
   <script>
     // Connect to the Socket.IO server
     var socket = io();
